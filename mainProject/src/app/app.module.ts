@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { DrawingComponent } from './gallery/drawing/drawing.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { GalleryHomeComponent } from './gallery/gallery-home/gallery-home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     HeaderComponent,
     HomeComponent,
     DrawingComponent,
-    GalleryComponent
+    GalleryComponent,
+    GalleryHomeComponent
   ],
   imports: [
     BrowserModule,
